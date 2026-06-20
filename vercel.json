@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ]
+  ],
+  "env": {
+    "MONGO_URI": "mongodb+srv://dbuser:admin@cluster0.whqvfjl.mongodb.net/Ecommerce-Store?retryWrites=true&w=majority&appName=Cluster0",
+    "JWT_SECRET": "ECOM123",
+    "PORT": "3000"
+  }
 }
